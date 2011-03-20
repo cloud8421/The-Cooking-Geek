@@ -28,6 +28,7 @@ toto = Toto::Server.new do
   # set :cache,      28800                                    # cache duration, in seconds
 
   set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
+  set :title, "Claudio Ortolina"
 end
 
 run toto

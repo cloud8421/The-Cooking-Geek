@@ -1,0 +1,7 @@
+--- 
+title: Starting from scratch
+date: 20/03/2011
+
+# Prova #
+
+- ciao
