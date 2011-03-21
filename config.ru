@@ -29,6 +29,8 @@ toto = Toto::Server.new do
 
   set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
   set :title, "Claudio Ortolina"
+  set :summary, :delim => /<more>/
+  
 end
 
 run toto

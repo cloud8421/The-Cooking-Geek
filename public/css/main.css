@@ -1,71 +1,70 @@
-html { margin: 20px }
 body {
   margin: 0 auto;
-  font-family: 'Baskerville', Georgia, Times, serif;
+  font-family: 'Yanone Kaffeesatz', Georgia, Times, serif;
   font-size: 20px;
   line-height: 30px;
   padding: 15px;
   width: 720px;
-
 }
-header, footer, section, article {
-	display: block;
+body header.navigation {
+  margin-right: 20px;
 }
-#content {
+body header.navigation h1 {
+  width: 400px;
+  float: left;
+}
+body header.navigation nav {
+  float: right;
+}
+body header.navigation nav ul li {
+  display: inline;
+  margin: 0 6px 0 6px;
 }
 #by {
-	font-style: italic;
+  font-style: italic;
   margin-right: 5px;
-	font-size: 28px;
+  font-size: 28px;
 }
 #caption {
-	position: absolute;
-	font-size: 24px;
-	margin: -135px 0 0 70px;
+  position: absolute;
+  font-size: 24px;
+  margin: -135px 0 0 70px;
 }
 #path {
-	color: #b53131;
+  color: #b53131;
 }
 .date {
   font-style: italic;
   float: right;
-  line-height: 43px;
   margin-right: 30px;
 }
 a {
   color: #b83000;
 }
+a:hover {
+  text-decoration: underline;
+}
 h1 a {
   color: black;
   text-decoration: none;
 }
-a:hover {
-  text-decoration: underline;
-}
-body > header > h1 {
-	border-left: 30px solid black;
-	padding-left: 30px;
-  font-size: 201px;
-  margin: 100px 0 15px 0;
-  font-weight: normal;
+#main {
+  clear: both;
 }
 .post header {
-	margin-bottom: 10px;
-}
-.post .body p:first-child {
-	margin-top: 0;
-}
-.post .body p:last-child {
-	margin-bottom: 0;
-}
-.post {
-	margin-bottom: 30px;
-}
-.post:last-child {
   margin-bottom: 10px;
 }
-.post p {
+.post header h1 {
+  display: inline;
+}
+.post .body p {
   margin: 10px 0;
+}
+.post .body p:first-child {
+  margin-top: 0;
+}
+.post .body p:last-child {
+  margin-bottom: 0;
 }
 .post .more {
   margin-top: -10px;
@@ -73,38 +72,9 @@ body > header > h1 {
   font-style: italic;
   text-align: right;
 }
-.more a {
+.post .more a {
   text-decoration: none;
 }
-.more a:hover { text-decoration: underline }
-body > header {
-	display: block;
-	padding-top: 30px;
-	line-height: 180px;
-	margin-bottom: 20px;
-}
-h1, h2, h3, h4 {
-  display: inline;
-  margin: 0;
-  font-weight: 600;
-}
-ul, li {
-  list-style-type: none;
-}
-code {
-  font-family: 'Anonymous Pro', 'Bitstream Vera Sans', 'Monaco', Courier, mono;
-}
-pre {
-  padding: 20px;
-}
-blockquote {
-  font-style: italic;
-}
-
-body > footer {
-  text-align: left;
-  margin-left: 10px;
-	font-style: italic;
-  font-size: 18px;
-  color: #888;
+.post .more a:hover {
+  text-decoration: underline;
 }
