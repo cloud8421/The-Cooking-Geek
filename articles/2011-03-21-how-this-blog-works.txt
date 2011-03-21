@@ -3,11 +3,11 @@ title: How this blog works
 date: 21/03/2011
 
 
-After having used Tumblr for a while, I've decided to switch to something completely different.
+After having used [Tumblr](http://www.tumblr.com/) for a while, I've decided to switch to something completely different.
 
 Here's what I wanted:
 
-- No distinction between writing and publishing. I just want to write in Markdown.
+- No distinction between writing and publishing. I just want to write in [Markdown](http://daringfireball.net/projects/markdown/).
 - No multi-user support, I don't need it.
 - No configuration hassle.
 - No DB backend, as I want to have speed and ease of management and backup.
@@ -15,7 +15,7 @@ Here's what I wanted:
 
 <more>
 
-I've come across Toto and I completely fell in love with it: it's got a lightweight ruby backend that seamlessly integrates with Heroku.
+I've come across [Toto](http://cloudhead.io/toto) and I completely fell in love with it: it's got a lightweight ruby backend that seamlessly integrates with Heroku.
 Every article is stored in plain text format, with native support for Markdown. I can have a simple layout, rock-solid HTML5 without slowdowns that benefits from a responsive layout that caters for desktop and mobile.
 
 Here are the steps I followed to get it up and running.
@@ -25,12 +25,12 @@ Here are the steps I followed to get it up and running.
 Toto is a blog engine for hackers, which may sound a bit hardcore, but in the end it's got a structure and philosophy that doesn't fit an average computer user. You definitely need to know your way around development, especially in the Ruby world.
 I'll make some assumptions (there are links for each one of them):
 
-- You have a properly Ruby-enabled system based on a Unix architecture
-- You know Markdown
-- You have Rubygems up and running
-- You know how to use a Terminal
+- You're not scared of the Command line ([Nettuts Tutorial](http://net.tutsplus.com/tutorials/tools-and-tips/terminal-git-and-github-for-the-rest-of-us-screencast/))
+- You have a properly Ruby-enabled system based on a Unix architecture ([Hivelogic how-to on Mac])
+- You have Rubygems up and running (if you don't have them installed, see [Nettuts](http://net.tutsplus.com/tutorials/ruby/ruby-for-newbies-working-with-gems/) )
 - You know GIT and have it running
-- You have an Heroku account
+- You know Markdown ([Tutorial](http://daringfireball.net/projects/markdown/basics))
+- You have an [Heroku](http://heroku.com/) account
 
 As you can see, it's quite a bit of stuff. It's not really hard, but it's still a bit of an effort.
 
@@ -91,7 +91,7 @@ The **config.ru** file lets you customize different options: the Toto website re
 
 ### Steps I've followed to customize the blog
 
-- I've changed the templates to implement the HTML5 boilerplate, so my version of Toto is boilerplate ready. As a matter of fact, Toto was already HTML5 based, however the bells and whistles in the boilerplate are awesome for resets, compatibility and standards.
+- I've changed the templates to implement the [HTML5 boilerplate](http://html5boilerplate.com/), so my version of Toto is boilerplate ready. As a matter of fact, Toto was already HTML5 based, however the bells and whistles in the boilerplate are awesome for resets, compatibility and standards.
 - I've also migrated the actual CSS to a LESS version, as I'll be changing it and updating it. Not really much, but I find LESS a better tool to work with.
 
 ### Open-source blogging

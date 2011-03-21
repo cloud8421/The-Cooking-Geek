@@ -2,16 +2,18 @@
 
 body {
 	margin: 0 auto;
-	font-family: 'Cuprum', Georgia, Times, serif;
-	font-size: 20px;
-	line-height: 30px;
+	//font-family: Georgia, Times, serif;
+	font-size: 16px;
+	line-height: 32px;
 	padding: 15px;
 	width: 720px;
 	
 	header.navigation {
 		
 		margin-right: 20px;
-
+		height: 80px;
+		display: block;
+		
 		h1 {
 			width: 400px;
 			float: left;
@@ -47,6 +49,7 @@ body {
 .date {
 	font-style: italic;
 	float: right;
+	font-size: 14px;
 	//line-height: 43px;
 	margin-right: 30px;
 }
@@ -70,15 +73,24 @@ pre {
 }
 
 .post {
+	margin-right: 20px;
 	header {
 		margin-bottom: 10px;
 		h2 {
 			display: inline;
 			color: @title_color;
+			margin: 6px 0 6px 0;
 			a {
 				color: @title_color;
 				text-decoration: none;
 			}
+		}
+	}
+	.img_container {
+		margin: 0 auto;
+		text-align: center;
+		img {
+			border: 3px solid gray;
 		}
 	}
 	.body {
@@ -92,6 +104,7 @@ pre {
 				margin-bottom: 0;
 			}
 		}
+		
 	}
 	.more {
 		margin-top: -10px;

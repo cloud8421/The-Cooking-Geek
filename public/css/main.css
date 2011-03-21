@@ -1,13 +1,14 @@
 body {
   margin: 0 auto;
-  font-family: 'Cuprum', Georgia, Times, serif;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 32px;
   padding: 15px;
   width: 720px;
 }
 body header.navigation {
   margin-right: 20px;
+  height: 80px;
+  display: block;
 }
 body header.navigation h1 {
   width: 400px;
@@ -37,6 +38,7 @@ body header.navigation nav ul li {
 .date {
   font-style: italic;
   float: right;
+  font-size: 14px;
   margin-right: 30px;
 }
 a {
@@ -56,16 +58,27 @@ pre code {
   font-family: Monaco, Monospace, Arial, serif;
   font-size: 11pt;
 }
+.post {
+  margin-right: 20px;
+}
 .post header {
   margin-bottom: 10px;
 }
 .post header h2 {
   display: inline;
   color: #444444;
+  margin: 6px 0 6px 0;
 }
 .post header h2 a {
   color: #444444;
   text-decoration: none;
+}
+.post .img_container {
+  margin: 0 auto;
+  text-align: center;
+}
+.post .img_container img {
+  border: 3px solid gray;
 }
 .post .body p {
   margin: 10px 0;
