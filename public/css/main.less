@@ -1,6 +1,8 @@
+@title_color: #444;
+
 body {
 	margin: 0 auto;
-	font-family: 'Yanone Kaffeesatz', Georgia, Times, serif;
+	font-family: 'Cuprum', Georgia, Times, serif;
 	font-size: 20px;
 	line-height: 30px;
 	padding: 15px;
@@ -13,6 +15,7 @@ body {
 		h1 {
 			width: 400px;
 			float: left;
+			color: @title_color;
 		}
 
 		nav {
@@ -53,18 +56,29 @@ a {
 		text-decoration: underline;
 	}
 }
-h1 a {
-	color: black;
-	text-decoration: none;
-}
 #main {
 	clear: both;
 }
+
+pre {
+	margin-left: 12px;
+	code {
+		background-color: #EEE;
+		font-family: Monaco, Monospace, Arial, serif;
+		font-size: 11pt;
+	}
+}
+
 .post {
 	header {
 		margin-bottom: 10px;
-		h1 {
+		h2 {
 			display: inline;
+			color: @title_color;
+			a {
+				color: @title_color;
+				text-decoration: none;
+			}
 		}
 	}
 	.body {

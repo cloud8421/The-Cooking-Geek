@@ -11,7 +11,7 @@ Here's what I wanted:
 - No multi-user support, I don't need it.
 - No configuration hassle.
 - No DB backend, as I want to have speed and ease of management and backup.
-- Solid foundation that can withstand an eventual fireball (hopefully it will happen on day or another).
+- Solid foundation that can withstand an eventual fireball (hopefully it will happen one day or another).
 
 <more>
 
@@ -69,7 +69,7 @@ This creates an empty skeleton for your app. Once you've made a local commit wit
 
 	rake publish
 
-The command is an alias for:
+The above command is an alias for:
 
 	git push heroku master
 	
@@ -78,7 +78,9 @@ This clearly defines a workflow:
 - create a new post
 - write it
 - make a local commit
-- push it to heroku
+- push everything to heroku
+
+While this may sound more complicated that the corresponding workflow in Tumblr or Wordpress, it's not. After the first push, updates on Heroku are fast as we don't need to install new gems or change a lot of files.
 
 ### Blog customization
 
@@ -98,4 +100,4 @@ I'll keep to blog published also on GitHub, which is an unusual choice but has g
 
 - Reliable backup
 - All the changes I make to the Dorothy barebone structure will be available
-- It's cool to see if something will happen with content
+- It's cool to see if something will happen with content, as all the posts will be available under the source tree
