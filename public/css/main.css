@@ -1,12 +1,22 @@
+.standard_paragraph {
+  margin: 10px 0;
+}
+.standard_paragraph:first-child {
+  margin-top: 0;
+}
+.standard_paragraph:last-child {
+  margin-bottom: 0;
+}
 body {
   margin: 0 auto;
+  font-family: 'Puritan', Georgia, Times, serif;
   font-size: 16px;
   line-height: 32px;
   padding: 15px;
   width: 720px;
 }
 body header.navigation {
-  margin-right: 20px;
+  margin: 6px 20px 0 0;
   height: 80px;
   display: block;
 }
@@ -14,6 +24,7 @@ body header.navigation h1 {
   width: 400px;
   float: left;
   color: #444444;
+  font-size: 24px;
 }
 body header.navigation nav {
   float: right;
@@ -49,6 +60,7 @@ a:hover {
 }
 #main {
   clear: both;
+  min-height: 400px;
 }
 pre {
   margin-left: 12px;
@@ -56,7 +68,7 @@ pre {
 pre code {
   background-color: #EEE;
   font-family: Monaco, Monospace, Arial, serif;
-  font-size: 11pt;
+  font-size: 14px;
 }
 .post {
   margin-right: 20px;
@@ -68,10 +80,28 @@ pre code {
   display: inline;
   color: #444444;
   margin: 6px 0 6px 0;
+  font-size: 20px;
 }
 .post header h2 a {
   color: #444444;
   text-decoration: none;
+}
+.post header .twitter-share-button {
+  position: relative;
+  top: 4px;
+  margin-left: 10px;
+}
+.post header h3 {
+  font-size: 18px;
+}
+.post p {
+  margin: 10px 0;
+}
+.post p:first-child {
+  margin-top: 0;
+}
+.post p:last-child {
+  margin-bottom: 0;
 }
 .post .img_container {
   margin: 0 auto;
@@ -79,15 +109,6 @@ pre code {
 }
 .post .img_container img {
   border: 3px solid gray;
-}
-.post .body p {
-  margin: 10px 0;
-}
-.post .body p:first-child {
-  margin-top: 0;
-}
-.post .body p:last-child {
-  margin-bottom: 0;
 }
 .post .more {
   margin-top: -10px;
@@ -100,4 +121,17 @@ pre code {
 }
 .post .more a:hover {
   text-decoration: underline;
+}
+footer {
+  clear: both;
+  border-top: 1px solid #CCC;
+}
+#about_container p {
+  margin: 10px 0;
+}
+#about_container p:first-child {
+  margin-top: 0;
+}
+#about_container p:last-child {
+  margin-bottom: 0;
 }

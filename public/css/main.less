@@ -1,8 +1,18 @@
 @title_color: #444;
 
+.standard_paragraph {
+	margin: 10px 0;
+	&:first-child {
+		margin-top: 0;
+	}
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
 body {
 	margin: 0 auto;
-	//font-family: Georgia, Times, serif;
+	font-family: 'Puritan', Georgia, Times, serif;
 	font-size: 16px;
 	line-height: 32px;
 	padding: 15px;
@@ -10,7 +20,7 @@ body {
 	
 	header.navigation {
 		
-		margin-right: 20px;
+		margin: 6px 20px 0 0;
 		height: 80px;
 		display: block;
 		
@@ -18,6 +28,7 @@ body {
 			width: 400px;
 			float: left;
 			color: @title_color;
+			font-size: 24px;
 		}
 
 		nav {
@@ -61,6 +72,7 @@ a {
 }
 #main {
 	clear: both;
+	min-height: 400px;
 }
 
 pre {
@@ -68,7 +80,7 @@ pre {
 	code {
 		background-color: #EEE;
 		font-family: Monaco, Monospace, Arial, serif;
-		font-size: 11pt;
+		font-size: 14px;
 	}
 }
 
@@ -80,11 +92,23 @@ pre {
 			display: inline;
 			color: @title_color;
 			margin: 6px 0 6px 0;
+			font-size: 20px;
 			a {
 				color: @title_color;
 				text-decoration: none;
 			}
 		}
+		.twitter-share-button {
+			position: relative;
+			top: 4px;
+			margin-left: 10px;
+		}
+		h3 {
+			font-size: 18px;
+		}
+	}
+	p{
+		.standard_paragraph;
 	}
 	.img_container {
 		margin: 0 auto;
@@ -94,16 +118,6 @@ pre {
 		}
 	}
 	.body {
-		
-		p{
-			margin: 10px 0;
-			&:first-child {
-				margin-top: 0;
-			}
-			&:last-child {
-				margin-bottom: 0;
-			}
-		}
 		
 	}
 	.more {
@@ -118,4 +132,17 @@ pre {
 			}
 		}
 	}
+}
+
+footer {
+	clear: both;
+	border-top: 1px solid #CCC;
+}
+
+#about_container {
+	
+	p {
+		.standard_paragraph;
+	}
+	
 }

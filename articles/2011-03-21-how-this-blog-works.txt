@@ -26,7 +26,7 @@ Toto is a blog engine for hackers, which may sound a bit hardcore, but in the en
 I'll make some assumptions (there are links for each one of them):
 
 - You're not scared of the Command line ([Nettuts Tutorial](http://net.tutsplus.com/tutorials/tools-and-tips/terminal-git-and-github-for-the-rest-of-us-screencast/))
-- You have a properly Ruby-enabled system based on a Unix architecture ([Hivelogic how-to on Mac])
+- You have a properly Ruby-enabled system based on a Unix architecture ([Hivelogic how-to on Mac](http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard))
 - You have Rubygems up and running (if you don't have them installed, see [Nettuts](http://net.tutsplus.com/tutorials/ruby/ruby-for-newbies-working-with-gems/) )
 - You know GIT and have it running
 - You know Markdown ([Tutorial](http://daringfireball.net/projects/markdown/basics))
@@ -92,7 +92,7 @@ The **config.ru** file lets you customize different options: the Toto website re
 ### Steps I've followed to customize the blog
 
 - I've changed the templates to implement the [HTML5 boilerplate](http://html5boilerplate.com/), so my version of Toto is boilerplate ready. As a matter of fact, Toto was already HTML5 based, however the bells and whistles in the boilerplate are awesome for resets, compatibility and standards.
-- I've also migrated the actual CSS to a LESS version, as I'll be changing it and updating it. Not really much, but I find LESS a better tool to work with.
+- I've also migrated the actual CSS to a [LESS](http://lesscss.org/) version, as I'll be changing it and updating it. Not really much, but I find LESS a better tool to work with.
 
 ### Open-source blogging
 
