@@ -2,6 +2,4 @@
 title: Cocotte with mushrooms, sour cream and egg
 date: 21/03/2011
 
-<div class="img_container">
-<a href="http://www.flickr.com/photos/cloudkeeneye/5546861980/" title="Cocotte with mushrooms, sour cream and Egg by cloud8421, on Flickr"><img src="http://farm6.static.flickr.com/5295/5546861980_890c4e3b85.jpg" width="500" height="374" alt="Cocotte with mushrooms, sour cream and Egg" /></a>
-</div>
+<div class="img_container"><a href="http://www.flickr.com/photos/cloudkeeneye/5546861980/" title="Cocotte with mushrooms, sour cream and Egg by cloud8421, on Flickr"><img src="http://farm6.static.flickr.com/5295/5546861980_890c4e3b85.jpg" width="500" height="374" alt="Cocotte with mushrooms, sour cream and Egg" /></a></div>

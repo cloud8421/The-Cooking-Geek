@@ -28,8 +28,8 @@ toto = Toto::Server.new do
   # set :cache,      28800                                    # cache duration, in seconds
 
   set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
-  set :title, "Claudio Ortolina"
-  set :summary, :delim => /<more>/
+  set :title, "The Cooking geek"
+  set :summary, :max => 200, :delim => /<more>/
   #set :disqus, 'cloud8421'
   
 end

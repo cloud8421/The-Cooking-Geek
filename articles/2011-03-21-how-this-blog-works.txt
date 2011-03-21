@@ -11,7 +11,8 @@ Here's what I wanted:
 - No multi-user support, I don't need it.
 - No configuration hassle.
 - No DB backend, as I want to have speed and ease of management and backup.
-- Solid foundation that can withstand an eventual fireball (hopefully it will happen one day or another).
+- Solid foundation that can withstand an eventual [fireball](http://blog.23x.net/216/anatomy-of-a-fireballing.html) (hopefully it will happen one day or another).
+- I wondered a lot about searchable content. I don't need it for now, but I'll eventualy prepare an addon myself.
 
 <more>
 
@@ -38,7 +39,7 @@ First of all, let's install Toto and some needed gems to work properly.
 
 	$ gem install heroku toto unicorn
 	
-Heroku and Toto are compulsory. As I use RVM, I don't need to use **sudo**. I also use Unicorn as it lets me run the blog on my Mac without any issues.
+Heroku and Toto are compulsory. As I use [RVM](http://rvm.beginrescueend.com/), I don't need to use **sudo**. I also use [Unicorn](http://raa.ruby-lang.org/project/unicorn/) as it lets me run the blog on my Mac without any issues.
 
 As suggested by its author, it's a good idea to download a copy of [Dorothy](https://github.com/cloudhead/dorothy) to have a barebone system to work on. Let's do it.
 

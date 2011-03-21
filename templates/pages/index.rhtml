@@ -3,13 +3,16 @@
     <article class="post">
       <header>
         <h2><a href="<%= article.path %>"><%= article.title %></a></h2>
+		<a href="http://twitter.com/share" class="twitter-share-button" data-url="<%= article.path %>" data-count="none" data-via="cloud8421">Tweet</a>
         <span class="date"><%= article.date %></span>
       </header>
 
       <section class="content">
         <%= article.summary %>
       </section>
-      <div class="more"><a href="<%= article.path %>">read on &raquo;</a></div>
+	  <% if article.summary != article.body %>
+		<div class="more"><a href="<%= article.path %>">READ MORE</a></div>
+	  <% end %>
     </article>
   <% end %>
 </section>
