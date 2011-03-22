@@ -28,7 +28,9 @@ toto = Toto::Server.new do
   # set :cache,      28800                                    # cache duration, in seconds
 
   set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
-  set :title, "The Cooking geek"
+  set :author, "Claudio Ortolina"
+  set :title, "The Cooking Geek"
+  set :url, "http://thecookinggeek.heroku.com"
   set :summary, :max => 200, :delim => /<more>/
   #set :disqus, 'cloud8421'
   
