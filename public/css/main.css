@@ -1,3 +1,8 @@
+/*
+	Standard classes.less file - Useful to save time with Less coding
+	Credit goes to Jeffrey Way - see:
+	http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-never-type-a-vendor-prefix-again/
+*/
 .standard_paragraph {
   margin: 10px 0;
 }
@@ -16,7 +21,7 @@ body {
   width: 720px;
 }
 body header.navigation {
-  margin: 6px 20px 0 0;
+  margin-top: 6px;
   height: 80px;
   display: block;
 }
@@ -29,9 +34,40 @@ body header.navigation h1 {
 body header.navigation nav {
   float: right;
 }
+body header.navigation nav ul {
+  background: #666666;
+  display: inline-block;
+  padding: 5px 10px 5px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: 0 1px 3px #999;
+  -webkit-box-shadow: 0 1px 3px #999;
+  text-shadow: 0 -1px 1px #222222;
+  border-bottom: 1px solid #222;
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 8px 0 12px 0;
+  color: #FFF;
+}
 body header.navigation nav ul li {
   display: inline;
   margin: 0 6px 0 6px;
+}
+body header.navigation nav ul li:last-child {
+  margin-right: 0px;
+}
+body header.navigation nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+body header.navigation nav ul li a:hover {
+  color: #FFF;
+  text-decoration: underline;
 }
 #by {
   font-style: italic;
@@ -70,11 +106,12 @@ pre code {
   font-size: 14px;
 }
 .post {
+  margin: 20px 0 10px 0;
   border-top: 1px solid #CCC;
 }
 .post header {
   margin-bottom: 10px;
-  margin-top: 6px;
+  margin-top: 10px;
 }
 .post header h2 {
   display: inline;
@@ -108,10 +145,19 @@ pre code {
   text-align: center;
 }
 .post .img_container img {
-  border: 3px solid gray;
+  padding: 10px;
+  background: #eee;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
 }
 .post .more {
-  background: #333;
+  text-align: center;
+}
+.post .more a {
+  text-align: center;
+  background: #666666;
   display: inline-block;
   padding: 5px 10px 5px;
   color: #fff;
@@ -128,8 +174,6 @@ pre code {
   cursor: pointer;
   font-size: 14px;
   margin: 8px 0 12px 0;
-}
-.post .more a {
   color: #FFF;
   text-decoration: none;
 }

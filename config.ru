@@ -31,7 +31,7 @@ toto = Toto::Server.new do
   set :author, "Claudio Ortolina"
   set :title, "The Cooking Geek"
   set :url, "http://thecookinggeek.heroku.com"
-  set :summary, :max => 200, :delim => /<more>/
+  set :summary, :max => 1000, :delim => /<more>/
   #set :disqus, 'cloud8421'
   
 end
