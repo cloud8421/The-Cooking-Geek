@@ -132,6 +132,17 @@ pre code {
 .post header h3 {
   font-size: 18px;
 }
+.post header .disqus_count a {
+  position: relative;
+  bottom: 2px;
+  color: #444444;
+  font-size: 13px;
+  text-decoration: none;
+}
+.post header .disqus_count a:hover {
+  color: #BBB;
+  text-decoration: underline;
+}
 .post p {
   margin: 10px 0;
 }
