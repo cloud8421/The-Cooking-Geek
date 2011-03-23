@@ -1,0 +1,10 @@
+--- 
+title: SweetFM
+date: 11/03/2011
+
+<div class="img_container"><img src="/img/2011-03-11-sweetfm.png" alt="SweetFM"></div>
+<p><a href="http://www.chocomoko.com/sweetfm">SweetFM</a> is a little piece of unknown software.</p>
+<p>I&rsquo;ve always enjoyed <a href="http://www.last.fm">Last.fm</a>, especially after having scrobbled a decent amount of songs to customize it to my tastes (the fact that they&rsquo;ve somewhat changed during these years is another matter). What has always bugged me was the fact that their application was not up to the experience.</p>
+<p>Having tried out the official app on multiple systems (namely, Linux and Mac), I can see that they&rsquo;re identical, so there has to be a cross-platform development behind them.</p>
+<p>This is where SweetFM comes in: it&rsquo;s Mac native, extremely lightweight, visually small and elegant and does exactly what you want from a Last.fm paid account: stream the music you like.</p>
+<p>It stays hidden, plays music, no hiccups and no crashes. Compared to the iTunes juggernaut, it&rsquo;s refreshing.</p>

@@ -2,7 +2,7 @@
 title: Cocotte with mushrooms, sour cream and egg
 date: 21/03/2011
 
-<div class="img_container"><img src="http://farm6.static.flickr.com/5295/5546861980_890c4e3b85.jpg" width="500" height="374" alt="Cocotte with mushrooms, sour cream and Egg" /></div>
+<div class="img_container"><img class="frame" src="http://farm6.static.flickr.com/5295/5546861980_890c4e3b85.jpg" width="500" height="374" alt="Cocotte with mushrooms, sour cream and Egg" /></div>
 
 <more>
 
