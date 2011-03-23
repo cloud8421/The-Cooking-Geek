@@ -4,4 +4,4 @@ It's powered by [Toto](http://cloudhead.io/toto) and it's currently based on mod
 
 Both the website files and contents are available here on GitHub.
 
-See here for the ideas behind this structure.
+See [here](http://thecookinggeek.heroku.com/2011/03/21/how-this-blog-works/) for the ideas behind this structure.
