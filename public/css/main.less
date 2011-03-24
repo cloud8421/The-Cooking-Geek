@@ -1,6 +1,8 @@
 @import 'classes.less';
 @title_color: #444;
 @dark_buttons: #666;
+@title_font: 'Oswald';
+@body_font: 'Droid Serif';
 
 .standard_paragraph {
 	margin: 10px 0;
@@ -14,11 +16,16 @@
 
 body {
 	margin: 0 auto;
-	font-family: 'Puritan', Georgia, Times, serif;
+	font-family: @body_font, Georgia, Times, serif;
 	font-size: 16px;
 	line-height: 32px;
 	padding: 15px;
 	width: 720px;
+	
+	h1, h2, h3 {
+		font-family: @title_font, Helvetica, Arial;
+		font-weight: 300;
+	}
 	
 	header.navigation {
 		
@@ -36,6 +43,7 @@ body {
 
 		nav {
 			float: right;
+			font-family: 'Helvetica', Arial, Sans-serif;
 
 			ul {
 				background: @dark_buttons;
@@ -145,6 +153,7 @@ pre {
 				bottom: 2px;
 				color: @title_color;
 				font-size: 13px;
+				font-family: @title_font, Arial, "MS Trebuchet", sans-serif;
 				text-decoration: none;
 					&:hover {
 						color: #BBB;

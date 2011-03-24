@@ -14,11 +14,15 @@
 }
 body {
   margin: 0 auto;
-  font-family: 'Puritan', Georgia, Times, serif;
+  font-family: 'Droid Serif', Georgia, Times, serif;
   font-size: 16px;
   line-height: 32px;
   padding: 15px;
   width: 720px;
+}
+body h1, body h2, body h3 {
+  font-family: 'Oswald', Helvetica, Arial;
+  font-weight: 300;
 }
 body header.navigation {
   margin-top: 6px;
@@ -34,6 +38,7 @@ body header.navigation h1 {
 }
 body header.navigation nav {
   float: right;
+  font-family: 'Helvetica', Arial, Sans-serif;
 }
 body header.navigation nav ul {
   background: #666666;
@@ -137,6 +142,7 @@ pre code {
   bottom: 2px;
   color: #444444;
   font-size: 13px;
+  font-family: 'Oswald', Arial, "MS Trebuchet", sans-serif;
   text-decoration: none;
 }
 .post header .disqus_count a:hover {
