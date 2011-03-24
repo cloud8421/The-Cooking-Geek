@@ -97,12 +97,7 @@ body {
 #path {
 	color: #b53131;
 }
-.date {
-	font-style: italic;
-	float: right;
-	font-size: 14px;
-	//line-height: 43px;
-}
+
 a {
 	color: #b83000;
 	&:hover {
@@ -124,7 +119,7 @@ pre {
 }
 
 .post {
-	margin: 20px 0 10px 0;
+	margin: 30px 0 30px 0;
 	border-top: 1px solid #CCC;
 	header {
 		margin-bottom: 10px;
@@ -139,27 +134,34 @@ pre {
 				text-decoration: none;
 			}
 		}
-		.twitter-share-button {
-			position: relative;
-			top: 4px;
-			margin-left: 10px;
-		}
 		h3 {
 			font-size: 18px;
 		}
-		.disqus_count {
-			a {
-				position: relative;
-				bottom: 2px;
-				color: @title_color;
-				font-size: 13px;
-				font-family: @title_font, Arial, "MS Trebuchet", sans-serif;
-				text-decoration: none;
-					&:hover {
-						color: #BBB;
-						text-decoration: underline;
+		.actions {
+			float: right;
+			.disqus_count {
+				a {
+					position: relative;
+					color: @title_color;
+					font-size: 13px;
+					font-family: @title_font, Arial, "MS Trebuchet", sans-serif;
+					margin-left: 6px;
+					text-decoration: none;
+						&:hover {
+							color: #BBB;
+							text-decoration: underline;
+						}
 					}
-				}
+			}
+			.twitter-share-button {
+				position: relative;
+				top: 4px;
+			}
+			.date {
+				font-style: italic;
+				font-size: 13px;
+				margin-left: 6px;
+			}
 		}
 	}
 	p{
@@ -181,6 +183,7 @@ pre {
 	}
 	.more {
 		text-align: center;
+		font-family: 'Helvetica', Arial, "Sans serif";
 		a {
 		text-align: center;
 		background: @dark_buttons;

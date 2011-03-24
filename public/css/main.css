@@ -88,11 +88,6 @@ body header.navigation nav ul li a:hover {
 #path {
   color: #b53131;
 }
-.date {
-  font-style: italic;
-  float: right;
-  font-size: 14px;
-}
 a {
   color: #b83000;
 }
@@ -112,7 +107,7 @@ pre code {
   font-size: 14px;
 }
 .post {
-  margin: 20px 0 10px 0;
+  margin: 30px 0 30px 0;
   border-top: 1px solid #CCC;
 }
 .post header {
@@ -129,25 +124,32 @@ pre code {
   color: #444444;
   text-decoration: none;
 }
-.post header .twitter-share-button {
-  position: relative;
-  top: 4px;
-  margin-left: 10px;
-}
 .post header h3 {
   font-size: 18px;
 }
-.post header .disqus_count a {
+.post header .actions {
+  float: right;
+}
+.post header .actions .disqus_count a {
   position: relative;
-  bottom: 2px;
   color: #444444;
   font-size: 13px;
   font-family: 'Oswald', Arial, "MS Trebuchet", sans-serif;
+  margin-left: 6px;
   text-decoration: none;
 }
-.post header .disqus_count a:hover {
+.post header .actions .disqus_count a:hover {
   color: #BBB;
   text-decoration: underline;
+}
+.post header .actions .twitter-share-button {
+  position: relative;
+  top: 4px;
+}
+.post header .actions .date {
+  font-style: italic;
+  font-size: 13px;
+  margin-left: 6px;
 }
 .post p {
   margin: 10px 0;
@@ -172,6 +174,7 @@ pre code {
 }
 .post .more {
   text-align: center;
+  font-family: 'Helvetica', Arial, "Sans serif";
 }
 .post .more a {
   text-align: center;

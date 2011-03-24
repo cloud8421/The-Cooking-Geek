@@ -3,9 +3,11 @@
     <article class="post">
       <header>
         <h2><a href="<%= article.path %>"><%= article.title %></a></h2>
-		<a href="http://twitter.com/share" class="twitter-share-button" data-url="<%= article.path %>" data-count="none" data-via="cloud8421">Tweet</a>
-        <span class="date"><%= article.date %></span>
-		<span class="disqus_count"><a href="<%= article.path %>#disqus_thread" data-disqus-identifier="<%= article.title %>">Comments and reactions</a></span>
+		<span class="actions">
+			<a href="http://twitter.com/share" class="twitter-share-button" data-url="<%= article.path %>" data-count="none" data-via="cloud8421">Tweet</a>
+			<span class="disqus_count"><a href="<%= article.path %>#disqus_thread" data-disqus-identifier="<%= article.title %>">Comments and reactions</a></span>
+			<span class="date"><%= article.date %></span>
+		</span>
       </header>
       <section class="content">
         <%= article.summary %>
