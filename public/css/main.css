@@ -18,7 +18,7 @@ body {
   font-size: 16px;
   line-height: 32px;
   padding: 15px;
-  width: 720px;
+  width: 650px;
 }
 body h1, body h2, body h3 {
   font-family: 'Oswald', Helvetica, Arial;
@@ -118,7 +118,7 @@ pre code {
   display: inline;
   color: #444444;
   margin: 6px 0 6px 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 .post header h2 a {
   color: #444444;
