@@ -94,6 +94,10 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.glyph_container {
+  text-align: center;
+  margin: 0 auto;
+}
 #main {
   clear: both;
   min-height: 400px;
@@ -107,7 +111,7 @@ pre code {
   font-size: 14px;
 }
 .post {
-  margin: 30px 0 30px 0;
+  margin: 10px 0 10px 0;
   border-top: 1px solid #CCC;
 }
 .post header {
