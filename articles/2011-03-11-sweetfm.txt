@@ -13,7 +13,7 @@ Having tried out the official app on multiple systems (namely, Linux and
 Mac), I can see that they’re identical, so there has to be a
 cross-platform development behind them.
 
-This is where SweetFM comes in: it’s Mac native, extremely lightweight,
+This is where [SweetFM][] comes in: it’s Mac native, extremely lightweight,
 visually small and elegant and does exactly what you want from a Last.fm
 paid account: stream the music you like.
 
