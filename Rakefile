@@ -1,6 +1,7 @@
 require 'toto'
 
 @config = Toto::Config::Defaults
+@draft_path = 'draft/'
 
 task :default => :new
 
@@ -8,12 +9,13 @@ desc "Create a new article."
 task :new do
   title = ask('Title: ')
   slug = title.empty?? nil : title.strip.slugize
-
   article = {'title' => title, 'date' => Time.now.strftime("%d/%m/%Y")}.to_yaml
+
   article << "\n"
   article << "Once upon a time...\n\n"
-
-  path = "#{Toto::Paths[:articles]}/#{Time.now.strftime("%Y-%m-%d")}#{'-' + slug if slug}.#{@config[:ext]}"
+  
+  #correction - articles are saved as drafts as default
+  path = "#{Toto::Paths[:articles]}/#{@draft_path}#{Time.now}#{'-' + slug if slug}.#{@config[:ext]}"
 
   unless File.exist? path
     File.open(path, "w") do |file|
