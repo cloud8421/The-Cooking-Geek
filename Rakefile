@@ -15,7 +15,7 @@ task :new do
   article << "Once upon a time...\n\n"
   
   #correction - articles are saved as drafts as default
-  path = "#{Toto::Paths[:articles]}/#{@draft_path}#{Time.now}#{'-' + slug if slug}.#{@config[:ext]}"
+  path = "#{Toto::Paths[:articles]}/#{@draft_path}#{Time.now.strftime("%d/%m/%Y")}#{'-' + slug if slug}.#{@config[:ext]}"
 
   unless File.exist? path
     File.open(path, "w") do |file|
