@@ -98,6 +98,10 @@ a:hover {
   text-align: center;
   margin: 0 auto;
 }
+.glyph_container p {
+  font-size: 24px;
+  color: #AAA;
+}
 #main {
   clear: both;
   min-height: 400px;
