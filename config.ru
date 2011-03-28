@@ -29,7 +29,7 @@ toto = Toto::Server.new do
 
   set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
   set :author, "Claudio Ortolina"
-  set :title, "The Cooking Geek"
+  set :title, "☁ The Cooking Geek"
   set :url, "http://thecookinggeek.heroku.com"
   set :summary, :max => 3000, :delim => /<more>/
   set :disqus, 'cloud8421'
