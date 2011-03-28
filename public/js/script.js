@@ -1,4 +1,5 @@
 /* Author: Claudio Ortolina */
+//http://net.tutsplus.com/tutorials/javascript-ajax/how-to-generate-noise-with-canvas/
 function generateNoise(opacity) {  
    if ( !!!document.createElement('canvas').getContext ) {  
       return false;  
