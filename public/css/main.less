@@ -1,11 +1,11 @@
 @import 'classes.less';
-@title_color: #444;
+@title_color: #99030C;
 @dark_buttons: #666;
 @title_font: 'Oswald';
 @body_font: 'Droid Serif';
 
 .standard_paragraph {
-	margin: 10px 0;
+	margin: 16px 0;
 	&:first-child {
 		margin-top: 0;
 	}
@@ -175,6 +175,13 @@ pre {
 	}
 	p{
 		.standard_paragraph;
+		a {
+			color: @title_color;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;				
+			}
+		}
 	}
 	.img_container {
 		margin: 0 auto;
