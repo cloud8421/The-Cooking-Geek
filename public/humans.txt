@@ -3,18 +3,19 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site: 
-  Twitter: 
-  Location: 
+  Developer, designer and writer: Claudio Ortolina
+  Site: thecookinggeek.heroku.com
+  Twitter: cloud8421
+  Location: Gallarate, VA (Italy)
 
 /* THANKS */
-  Names (& URL): 
+  Names (& URL): - Nicola Armellini (tips on layout) - nicolaarmellini.com
+				 - Giovanna Ruiu (advices on the cooking side)
 
 /* SITE */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
-  Software:
+  Software: toto (http://cloudhead.io/toto)
   
 
                                     
