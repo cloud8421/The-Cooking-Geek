@@ -142,7 +142,7 @@ pre code {
 .post header .actions .disqus_count a {
   position: relative;
   color: #444444;
-  font-size: 13px;
+  font-size: 12px;
   font-family: 'Oswald', Arial, "MS Trebuchet", sans-serif;
   margin-left: 6px;
   text-decoration: none;
@@ -157,7 +157,7 @@ pre code {
 }
 .post header .actions .date {
   font-style: italic;
-  font-size: 13px;
+  font-size: 12px;
   margin-left: 6px;
 }
 .post p {
