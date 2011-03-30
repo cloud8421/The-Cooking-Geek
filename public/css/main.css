@@ -221,6 +221,34 @@ pre code {
   color: #FFF;
   text-decoration: underline;
 }
+#archives ul {
+  margin-bottom: 50px;
+}
+#archives ul li {
+  color: #99030c;
+  list-style-type: none;
+  clear: both;
+  margin-left: -33px;
+}
+#archives ul li a {
+  color: #99030c;
+  text-decoration: none;
+}
+#archives ul li a h3 {
+  font-family: 'Oswald', Helvetica, Arial;
+  font-weight: 300;
+  float: left;
+}
+#archives ul li a:hover {
+  text-decoration: underline;
+}
+#archives ul li .date {
+  font-style: italic;
+  font-size: 12px;
+  margin-left: 6px;
+  color: #444444;
+  float: right;
+}
 footer {
   clear: both;
   text-align: center;

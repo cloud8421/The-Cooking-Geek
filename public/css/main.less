@@ -233,6 +233,37 @@ pre {
 	}
 }
 
+#archives {
+	ul {
+		margin-bottom: 50px;
+		li {
+			color: @title_color;
+			list-style-type: none;
+			clear: both;
+			margin-left: -33px;
+			a {
+				color: @title_color;
+				h3 {
+					font-family: @title_font, Helvetica, Arial;
+					font-weight: 300;
+					float: left;
+				}
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+			.date {
+				font-style: italic;
+				font-size: 12px;
+				margin-left: 6px;
+				color: @dark_gray;
+				float: right;
+			}
+		}
+	}
+}
+
 footer {
 	clear: both;
 	text-align: center;
