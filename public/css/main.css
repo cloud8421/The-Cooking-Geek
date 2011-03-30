@@ -160,20 +160,23 @@ pre code {
   font-size: 12px;
   margin-left: 6px;
 }
-.post p {
+.post p, .post ul {
   margin: 16px 0;
 }
-.post p:first-child {
+.post p:first-child, .post ul:first-child {
   margin-top: 0;
 }
-.post p:last-child {
+.post p:last-child, .post ul:last-child {
   margin-bottom: 0;
 }
-.post p a {
+.post p li, .post ul li {
+  margin-left: 18px;
+}
+.post p a, .post ul a {
   color: #99030c;
   text-decoration: none;
 }
-.post p a:hover {
+.post p a:hover, .post ul a:hover {
   text-decoration: underline;
 }
 .post .img_container {
