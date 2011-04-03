@@ -4,14 +4,16 @@ date: 03/04/2011
 
 As I said before, I wasn't planning to get an iPad 2. It's been a gift, so I open-heartedly welcomed it. I've also purchased the wi-fi only model, so no 3G evaluation.
 
+<div class="img_container"><img class="frame" src="/img/ipad2_side_flat.jpg" alt="iPad 2"></div>
+
+<more>
+
 ### Holding it
 
 From a pure form-factor point of view, there are some major differences: it's thinner, completely flat on the back and any kind of sharp edges have been removed. Instead of the sharp angles of the first iteration, we now have smooth and curvy lines that better fit in the hand when used.
 The consequence is simple: you can hold it better for longer periods, especially because hands don't become numb after a while (this happened to me multiple times when using the iPad 1).
 
 The difference in weight is not really big, personally I don't think it's noticeable. It's light the way it was before and as many said, we're miles away from the Kindle.
-
-<div class="img_container"><img src="/img/ipad2_side_flat.jpg" alt="iPad 2"></div>
 
 The complete flatness of the back is the visual difference that contributes the most in giving the impression that it's a major revamp, while in reality it's not. It's an improvement that solves some ergonomic problems that were present in the iPad 1.
 
@@ -47,13 +49,13 @@ As a time aggregate, it's a pretty extensive usage that is not at all similar to
 
 ### The smart cover
 
-<div class="img_container"><img src="/img/ipad2_smart_cover.jpg" alt="Griffin Loop"></div>
+<div class="img_container"><img class="frame" src="/img/ipad2_smart_cover.jpg" alt="Griffin Loop"></div>
 
 I've read a lot about people who think it's the major feature and it's indeed a smart object. It really snaps the way it's supposed to snap and it's got a strong grip. However I'm not replacing my old combo (a [Colcasac sleeve](http://www.colcasac.com/ipad-sleeve/) and the [Griffin Loop](http://www.griffintechnology.com/products/loop) stand).
 
 Compared with the loop stand, angles are a bit awkward to me: when you flip the cover to writing mode, it's a bit too flat and I tend to see too many reflections above the iPad. When you switch it to vertical, it's too close to 90 degrees and I constantly fear it could collapse. Moreover, there's no option to use the cover as a stand in portrait orientation.
 
-<div class="img_container"><img src="/img/ipad2_loop.jpg" alt="Griffin Loop"></div>
+<div class="img_container"><img class="frame" src="/img/ipad2_loop.jpg" alt="Griffin Loop"></div>
 
 It is indeed lightweight and it can be a decent portable stand (in bed as well it's good), but it doesn't replace the stand I use for extensive usage. 
 
