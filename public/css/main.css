@@ -221,6 +221,12 @@ pre code {
   color: #FFF;
   text-decoration: underline;
 }
+blockquote {
+  margin: 0 16px 0 16px;
+  font-size: 14px;
+  padding: 0 8px 0 8px;
+  border-left: 4px solid #CCC;
+}
 #archives ul {
   margin-bottom: 50px;
 }
