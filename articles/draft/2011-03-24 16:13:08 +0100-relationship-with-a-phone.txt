@@ -1,8 +1,0 @@
---- 
-title: Relationship with a phone
-date: 24/03/2011
-
-In episode XXX of Enough, Patrick Rhorne argues that a phone feels more personal than a computer, especially when it comes to safety and trust. The topic was revolving around the fact that in the past few weeks there has been a malware outbreak on the Android platform.
-
-I don't think that an eventual virus threat on my phone would be worse than one on one of my other devices. As a matter of fact, all of them feel personal to me: they've got my thoughts inside, my mail, pictures, history of part of my life.
-There was a time when the phone was indeed more personal, especially in the golden days of text messaging. Phones were the vault of messages that could chronicle years of your life.
