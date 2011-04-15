@@ -156,6 +156,7 @@ pre code {
   top: 4px;
 }
 .post header .actions .date {
+  font-family: 'Kreon';
   font-style: italic;
   font-size: 12px;
   margin-left: 6px;
