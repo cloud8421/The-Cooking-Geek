@@ -1,4 +1,4 @@
-This is The Geek Cook, a personal blog about development, cooking and all that's around both of them.
+This is The Cooking Geek, a personal blog about development, cooking and all that's around both of them.
 
 It's powered by [Toto](http://cloudhead.io/toto) and it's currently based on modifications of its core theme, [Dorothy](https://github.com/cloudhead/dorothy).
 
