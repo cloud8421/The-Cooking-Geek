@@ -127,14 +127,11 @@ pre code {
   display: inline;
   color: #99030c;
   margin: 6px 0 6px 0;
-  font-size: 18px;
+  font-size: 22px;
 }
 .post header h2 a {
   color: #99030c;
   text-decoration: none;
-}
-.post header h3 {
-  font-size: 18px;
 }
 .post header .actions {
   float: right;
@@ -160,6 +157,10 @@ pre code {
   font-style: italic;
   font-size: 12px;
   margin-left: 6px;
+}
+.post h3 {
+  font-size: 18px;
+  color: #99030c;
 }
 .post p, .post ul {
   margin: 16px 0;
