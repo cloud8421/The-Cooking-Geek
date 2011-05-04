@@ -6,7 +6,7 @@ I'm reading [Patrick Rhone's Keeping It Straight](http://keepingitstraightbook.c
 
 There's a quote about games I want to talk about:
 
-    I rarely play games. In fact, I purposely avoid them. I know from past experience that I can get addicted to them and hours of my like can disappear. Frankly, I value those hours, especially as one only has so many to accomplish their goals for life.
+>I rarely play games. In fact, I purposely avoid them. I know from past experience that I can get addicted to them and hours of my like can disappear. Frankly, I value those hours, especially as one only has so many to accomplish their goals for life.
 
 I'm a videogames advocate: I've always played them, I worked with them, sometimes I've written about them. They've always been a part of who I am. I'm pretty sure they helped in shaping my personality, my vision of life, my attitude towards the (small, let's be honest) challenges I face every day.
 
@@ -22,6 +22,6 @@ The good thing about games is that they make it easy to dive deep in another uni
 
 I'd suggest Patrick to devote some time to games without the need to find an explicit reason why (I'm also available for suggestions). The reason will present itself in the form of the [car keys he had lost once](http://patrickrhone.com/2010/11/02/finding-lost-things/). After all, he also says:
 
-    As I said, I know how easily sucked in I can get with games. In this one [Canabalt] it is especially easy to say "I was robbed" or "I didn't mean to do that" and thus justify another round. Sometimes, you have to know when enough is enough, cut your losses, and live on to play another day.
+>As I said, I know how easily sucked in I can get with games. In this one [Canabalt] it is especially easy to say "I was robbed" or "I didn't mean to do that" and thus justify another round. Sometimes, you have to know when enough is enough, cut your losses, and live on to play another day.
 
 This means he should be able to stop when he likes.
