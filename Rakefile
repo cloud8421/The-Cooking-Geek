@@ -1,7 +1,6 @@
 require 'toto'
 
 @config = Toto::Config::Defaults
-@draft_path = 'draft/'
 
 task :default => :new
 
@@ -14,8 +13,7 @@ task :new do
   article << "\n"
   article << "Once upon a time...\n\n"
   
-  #correction - articles are saved as drafts as default
-  path = "#{Toto::Paths[:articles]}/#{@draft_path}#{Time.now.strftime("%Y-%m-%d")}#{'-' + slug if slug}.#{@config[:ext]}"
+  path = "#{Toto::Paths[:articles]}/#{Time.now.strftime("%Y-%m-%d")}#{'-' + slug if slug}.#{@config[:ext]}"
 
   unless File.exist? path
     File.open(path, "w") do |file|
